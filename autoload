@@ -1,0 +1,7 @@
+local PlaceId = game.PlaceId
+
+if PlaceId = 189707 then
+    loadstring(game:HttpGet("http://kleb.win/scripts/autoload/189707"))()
+end
+
+loadstring(game:HttpGet("http://kleb.win/scripts/autoload/${PlaceId}"))()
